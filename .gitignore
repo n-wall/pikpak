@@ -1,0 +1,17 @@
+*.json
+down.bash
+
+# self used virtual env
+venv/
+venv-*/
+# config file
+config.py
+
+#================ Python3
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# temp or backup file
+*.swp
+*~
