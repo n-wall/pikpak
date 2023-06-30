@@ -5,6 +5,17 @@ pikpak 是一个 新加坡 的网盘，可以帮你在服务端下载torrent, ht
 直接clone。
 
 ## 使用
+包括了两个可以使用的文件: `list-file.py`和`pik-shell.py`
+
+### 一个简单的交互 `pik-shell.py`
+```
+#source venv-pikpak/bin/activate
+python3 pik-shell.py
+```
+然后，可以输入一些命令做交互。如： help, exit, cd , ls, download, fetch 等。
+
+
+### 列出文件 `list-file.py`
 ```
 #source venv-pikpak/bin/activate
 python list-file.py [json配置文件]
